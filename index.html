@@ -124,9 +124,18 @@
     <section class="contact" id="contact">
         <div class="title white">
             <h2>Contact Me</h2>
-            <p>If you are interested in my work, let me know & we can work on a project together!</p>
+            <p>If you are interested in my work, let me know by email & we can work on a project together!</p>
         </div>
-        <div class="contactForm">
+        <span><p class="copy-notif">Copied to clipboard!</p>
+          <div class="input-wrap">
+            <input
+              id="myInput"
+              onclick="copyEmail()"
+              value="leopoldthiao@gmail.com"
+              readonly
+            /></div
+        ></span>
+        <!-- <div class="contactForm">
             <div class="row">
                 <div class="col50">
                     <input type="text" name="" placeholder="First Name">
@@ -154,7 +163,7 @@
                     <input class="btn" type="submit" value="Send">
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <div class="copyright">
@@ -178,6 +187,25 @@
             const sidebarToggle = document.querySelector('.sidebar');
             menuToggle.classList.toggle('active');
             sidebarToggle.classList.toggle('active');
+        }
+
+        function copyEmail() {
+            /* Get the text field */
+            var copyText = document.getElementById("myInput");
+            let copyButt = document.querySelector(".copy-notif");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 25);
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            copyButt.classList.add("copied");
+            setTimeout(() => {
+                copyButt.classList.remove("copied");
+            }, 5000);
         }
     </script>
 </body>
