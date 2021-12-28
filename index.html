@@ -1,117 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="toggle" onclick="toggleMenu();"></div>
     <section class="banner lighter" id="home">
-        <div class="imgSidebar">
-            <img src="src/bg1.jpeg" />
+      <div class="imgSidebar">
+        <img src="src/bg1.jpeg" />
+      </div>
+      <div class="contentBx">
+        <h5 class="logoText">Developer Portfolio</h5>
+        <div>
+          <h4><span>Hello</span> I'm</h4>
+          <h2>Leopold Thiao</h2>
+          <h4>I'm a Software Developer</h4>
+          <p>Web Development, Python Programming, & Mobile Development</p>
+          <a href="#about" class="btn">About Me</a>
         </div>
-        <div class="contentBx">
-            <h5 class="logoText">Developer Portfolio</h5>
-            <div>
-                <h4><span>Hello</span> I'm</h4>
-                <h2>Leopold Thiao</h2>
-                <h4>I'm a Software Developer</h4>
-                <p>Web Development, Python Programming, & Moblie Development</p>
-                <a href="#about" class="btn">About Me</a>
-            </div>
-            <ul class="sci">
-                <li>
-                    <a href="https://www.instagram.com/leopold_thiao/" target="_blank" rel="noopener noreferrer"><img src="/src/instagram.png" alt="" /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/leopold-thiao-2a660a208/" target="_blank" rel="noopener noreferrer"><img id="linkedin" src="/src/linkedin.png" alt="" /></a>
-                </li>
-            </ul>
-        </div>
+        <ul class="sci">
+          <li>
+            <a
+              href="https://www.instagram.com/leopold_thiao/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="/src/instagram.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/leopold-thiao-2a660a208/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img id="linkedin" src="/src/linkedin.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="title white">
-            <h2>About Me</h2>
-            <p>Polished Efficiency</p>
+      <div class="title white">
+        <h2>About Me</h2>
+        <p>Polished Efficiency</p>
+      </div>
+      <div class="content">
+        <div class="imgBx">
+          <img src="src/bg4.jpg" />
         </div>
-        <div class="content">
-            <div class="imgBx">
-                <img src="src/bg4.jpg" />
-            </div>
-            <div class="textBx">
-                <p>
-                    I am a Python programmer turned Freelance Web Developer with a coding skillset focused on balancing effiency & quality in my work. I enjoy solving problems & trying to implement the cleanest solutions in my code while making sure I don't waste time unnecessarily
-                    in the process. I also make Andriod apps for my personal use.
-                </p>
-            </div>
+        <div class="textBx">
+          <p>
+            I am a Python programmer turned Freelance Web Developer with a
+            coding skill set focused on balancing efficiency & quality in my
+            work. I enjoy solving problems & trying to implement the cleanest
+            solutions in my code while making sure I don't waste time
+            unnecessarily in the process. I also make Android apps for my
+            personal use.
+          </p>
         </div>
+      </div>
     </section>
 
     <section class="services lighter" id="services">
-        <div class="title">
-            <h2>My Services</h2>
-            <p>Fullstack Web Apps, Python Apps & Android Apps</p>
+      <div class="title">
+        <h2>My Services</h2>
+        <p>Full Stack Web Apps, Python Apps & Android Apps</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <img src="src/icon1.png" alt="" />
+          <h2>Python</h2>
+          <ul>
+            <li>Scripts</li>
+            <li>Web Scraping</li>
+            <li>Machine Learnings</li>
+            <li>Flask/Django/FastAPI Backend</li>
+            <li>Task Automation</li>
+          </ul>
         </div>
-        <div class="content">
-            <div class="servicesBx">
-                <img src="src/icon1.png" alt="" />
-                <h2>Python</h2>
-                <ul>
-                    <li>Scripts</li>
-                    <li>Webscrapping</li>
-                    <li>Machine Learnings</li>
-                    <li>Flask Backend</li>
-                    <li>Task Automation</li>
-                </ul>
-            </div>
-            <div class="servicesBx">
-                <img src="src/icon2.png" alt="" />
-                <h2>Web Development</h2>
+        <div class="servicesBx">
+          <img src="src/icon2.png" alt="" />
+          <h2>Web Development</h2>
 
-                <ul>
-                    <li>Full Stack React React Apps</li>
-                    <li>Javascript, HTML & CSS</li>
-                    <li>Typescript</li>
-                    <li>Next.js</li>
-                    <li>GraphQL</li>
-                </ul>
-            </div>
-
-            <div class="servicesBx">
-                <img src="src/icon3.png" alt="" />
-                <h2>Android Apps</h2>
-                <ul>
-                    <li>Flutter</li>
-                    <li>Fullstack Android Apps</li>
-                    <li>Fullstack iOS Apps</li>
-                </ul>
-            </div>
+          <ul>
+            <li>Full Stack React Apps</li>
+            <li>Javascript, HTML & CSS</li>
+            <li>Typescript</li>
+            <li>Next.js</li>
+            <li>GraphQL</li>
+          </ul>
         </div>
+
+        <div class="servicesBx">
+          <img src="src/icon3.png" alt="" />
+          <h2>Android Apps</h2>
+          <ul>
+            <li>Flutter</li>
+            <li>Full Stack Android Apps</li>
+            <li>Full Stack iOS Apps</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="work lighter" id="work">
-        <div class="title">
-            <h2>Recent Work</h2>
-            <p></p>
-        </div>
-        
-        <div class="content">
+      <div class="title">
+        <h2>Recent Work</h2>
+        <p></p>
+      </div>
 
-           <div class="workBx">
+      <div class="content">
+        <div class="workBx">
           <div class="imgBx">
             <img src="src/tinder.gif" alt="" />
           </div>
           <div class="textBx">
             <h3>Flutter & Python: Tinder Clone</h3>
             <p>
-              Fullstack Flutter app Tinder clone with a Python Django backend
+              Full Stack Flutter app Tinder clone with a Python Django backend
             </p>
             <a
               class="btn"
@@ -122,17 +134,22 @@
             >
           </div>
         </div>
-        
-            <div class="workBxTxt">
-                <h3>Flutter: Game of Games</h3>
-                <p>
-                    Android or iOS that allows people to play a game of H.O.R.S.E or S.K.A.T.E & track who's turn it is
-                </p>
-                <a class="btn" href="https://play.google.com/store/apps/details?id=com.flutter.game" target="_blank" rel="noreferrer">View Project</a
+
+        <div class="workBxTxt">
+          <h3>Flutter: Game of Games</h3>
+          <p>
+            Android or iOS that allows people to play a game of H.O.R.S.E or
+            S.K.A.T.E & track who's turn it is
+          </p>
+          <a
+            class="btn"
+            href="https://play.google.com/store/apps/details?id=com.flutter.game"
+            target="_blank"
+            rel="noreferrer"
+            >View Project</a
           >
         </div>
-          
-         
+
         <div class="workBx">
           <div class="imgBx">
             <img src="src/Games.png" alt="" />
@@ -153,8 +170,6 @@
             >
           </div>
         </div>
-
-        
 
         <div class="workBxTxt">
           <h3>React: Invoice Dashboard</h3>
@@ -179,7 +194,7 @@
         </div>
 
         <div class="workBxTxt">
-          <h3>React: Fullstack Reddit Clone</h3>
+          <h3>React: Full Stack Reddit Clone</h3>
           <p>
             Login, Register, Post, Upvote & Read Posts just like Reddit. Made as
             part of a GraphQL, Next.js & Typescript Course
@@ -197,7 +212,7 @@
             <img src="src/lireddit.jpg" alt="" />
           </div>
           <div class="textBx">
-            <h3>React: Fullstack Reddit Clone</h3>
+            <h3>React: Full Stack Reddit Clone</h3>
             <p>
               Login, Register, Post, Upvote & Read Posts just like Reddit. Made
               as part of a GraphQL, Next.js & Typescript Course
@@ -215,7 +230,7 @@
           <h3>Python: Star Wars Chess</h3>
           <p>
             Chess with move tracking & highlighting, written in python using
-            pygame
+            Pygame
           </p>
           <a
             class="btn"
@@ -233,7 +248,7 @@
             <h3>Python: Star Wars Chess</h3>
             <p>
               Chess with move tracking & highlighting, written in python using
-              pygame
+              Pygame
             </p>
             <a
               class="btn"
@@ -303,40 +318,39 @@
     <div class="sidebar">
       <ul class="menu">
         <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu();">About</a></li>
-                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
-                <li><a href="#work" onclick="toggleMenu();">Work</a></li>
-                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-                </ul>
-            </div>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </div>
 
-            <script>
-                function toggleMenu() {
-                    const menuToggle = document.querySelector(".toggle");
-                    const sidebarToggle = document.querySelector(".sidebar");
-                    menuToggle.classList.toggle("active");
-                    sidebarToggle.classList.toggle("active");
-                }
+    <script>
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".toggle");
+        const sidebarToggle = document.querySelector(".sidebar");
+        menuToggle.classList.toggle("active");
+        sidebarToggle.classList.toggle("active");
+      }
 
-                function copyEmail() {
-                    /* Get the text field */
-                    var copyText = document.getElementById("myInput");
-                    let copyButt = document.querySelector(".copy-notif");
+      function copyEmail() {
+        /* Get the text field */
+        var copyText = document.getElementById("myInput");
+        let copyButt = document.querySelector(".copy-notif");
 
-                    /* Select the text field */
-                    copyText.select();
-                    copyText.setSelectionRange(0, 25);
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 25);
 
-                    /* Copy the text inside the text field */
-                    document.execCommand("copy");
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
 
-                    /* Alert the copied text */
-                    copyButt.classList.add("copied");
-                    setTimeout(() => {
-                        copyButt.classList.remove("copied");
-                    }, 5000);
-                }
-            </script>
-</body>
-
+        /* Alert the copied text */
+        copyButt.classList.add("copied");
+        setTimeout(() => {
+          copyButt.classList.remove("copied");
+        }, 5000);
+      }
+    </script>
+  </body>
 </html>
